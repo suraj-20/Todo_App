@@ -64,3 +64,37 @@ small {
     color: #b5b5b5;
     text-align: center;
 }
+
+@media (max-width:426px) {
+    h1 {
+        font-size: 7rem;
+    }
+
+    form {
+        width: 340px;
+    }
+}
+
+@media (max-width:376px) {
+    h1 {
+        font-size: 6rem;
+    }
+
+    form {
+        width: 300px;
+    }
+
+    small {
+        display: none;
+    }
+}
+
+@media (max-width:320px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    form {
+        width: 280px;
+    }
+}
