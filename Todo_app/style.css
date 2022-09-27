@@ -59,11 +59,26 @@ form {
     text-decoration: line-through;
 }
 
+.phone {
+    display: none;
+}
+
 small {
     margin-top: 3rem;
     color: #b5b5b5;
     text-align: center;
 }
+
+@media (max-width:769px) {
+    small {
+        display: none;
+    }
+
+    .phone {
+        display: flex;
+    }
+}
+
 
 @media (max-width:426px) {
     h1 {
@@ -72,6 +87,10 @@ small {
 
     form {
         width: 340px;
+    }
+
+    small {
+        display: none;
     }
 }
 
@@ -82,10 +101,6 @@ small {
 
     form {
         width: 300px;
-    }
-
-    small {
-        display: none;
     }
 }
 
